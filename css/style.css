@@ -90,3 +90,16 @@ body{
     justify-content: end;
 }
 
+.slogan{
+    text-align: center;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    
+    a{
+        margin: 10px;
+        color: black;
+    }
+}
