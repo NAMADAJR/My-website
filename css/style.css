@@ -8,6 +8,12 @@
     justify-content: space-evenly;
     background-color: rgb(0, 0, 0);
     
+    img{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+     }
+
     a{
         color: beige;
     }
@@ -40,12 +46,6 @@
     }
 }
 
-img{
-   border-radius: 50%;
-   width: 200px;
-   height: 200px;
-}
-
 body{
     background-color: rgb(133, 55, 0);
     background-repeat: no-repeat;
@@ -57,14 +57,16 @@ body{
 .info{
     display: flex;
     justify-content: center;
-    column-gap: 5px;
+    justify-content: space-around;
 
     .box1{
         font-family: "Playwrite IS", cursive;
+        width: 400px;
     }
     
     .box2{
         font-family: "Playwrite IS", cursive;
+        width: 400px;
     }
     
 }
@@ -95,8 +97,42 @@ body{
 }
 
 .slogan{
-    font-family: "Bilbo Swash Caps", cursive;
-    font-weight: 400;
-    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.image{
+    width: 500px;
+    position: relative;
+
+    img{
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+}
+
+.words{
+    width: 500px;
+    height: 668px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.2s;
+
+    h1{
+     font-family: "Bilbo Swash Caps", cursive;
+     font-weight: 400;
+     font-style: normal;
+     color: beige;
+    }
+}
+
+.words:hover{
+    opacity: 1;
 }
