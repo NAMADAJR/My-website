@@ -107,15 +107,15 @@ body{
     position: relative;
 
     img{
-        width: 100%;
+        width: 90%;
         display: block;
         margin: auto;
     }
 }
 
 .words{
-    width: 500px;
-    height: 668px;
+    width: 450px;
+    height: 600px;
     position: absolute;
     background-color: rgba(0,0,0,0.6);
     display: flex;
