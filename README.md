@@ -4,9 +4,10 @@
 
 ## Project Description
 
-The website is a simple shopping list website that allows users to add items to a list and check them off when they have been purchased. The website is built using HTML, CSS, and JavaScript and uses a simple button to add items to the list and a clear button to remove all items from the list. The website also uses some custom fonts and colors to make it visually appealing.
 
-Here is the link to the website [(https://namadajr.github.io/Phase-1-week-2-codechallange/)](https://namadajr.github.io/Phase-1-week-2-codechallange/)
+This personal website is an online platform representing my identity. It typically includes a homepage with an introduction, a blog or articles, and contact information. It features a custom domain name, unique design elements, and multimedia content, and social media links. It serves as a digital hub for sharing one's work, achievements, interests, and personal brand with a wider audience.
+
+Here is the link to the website [(https://namadajr.github.io/My-website/)](https://namadajr.github.io/My-website/)
 
 ## Features of the website
 
